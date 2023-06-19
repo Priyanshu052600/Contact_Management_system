@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/contactservice
+    username: Priyanshu
+    password: Priyanshu@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: CONTACT_MANAGEMENT_SERVICE
+
+security:
+  ignored : /**
+  basic:
+    enable: false
